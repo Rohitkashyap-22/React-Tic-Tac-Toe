@@ -1,16 +1,70 @@
-# React + Vite
+# Tic Tac Toe Game 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple two-player Tic Tac Toe game built using React. Players take turns marking X and O on a 3×3 grid. The game automatically detects the winner or declares a draw.
 
-Currently, two official plugins are available:
+##  Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Tic Tac Toe Game](./src/image.png)
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Two-player gameplay (X and O)
+- Automatic winner detection
+- Draw detection
+- Turn management
+- Reset button to start a new game
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- HTML
+- CSS
+
+##  What I Learned
+
+- Managing state using `useState`
+- Handling click events in React
+- Updating arrays without directly mutating state
+- Conditional rendering
+- Implementing winner and draw detection logic
+
+##  Challenges & Learning
+
+Initially, I found it difficult to figure out how to build the game logic on my own. I referred to a YouTube tutorial to understand the approach, practiced the implementation again, and eventually managed to build the logic myself.
+
+This project helped me improve my problem-solving skills and understand how to break a problem into smaller steps.
+
+## 🎥 Tutorial Reference
+
+[YouTube Tutorial](https://www.youtube.com/watch?v=D_tyfqNZm6I&list=PLp18NAIKHWnvpLpioGs6ZAiMlpfx49KOz&index=35)
+
+## ▶️ Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Rohitkashyap-22/React-Tic-Tac-Toe
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd React-Tic-Tac-Toe
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+Built as a React practice project.
